@@ -19,10 +19,25 @@ h2 {
   font-weight: 700;
 }
 
+h3 {
+  margin-top: 15px;
+}
+
+p {
+  line-height: 1.3;
+}
+
 .hero {
   background: rgba(139, 205, 161, 0.2);
   text-align: center;
-  padding: 160px 40px;
+  padding: 100px 40px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .btn-branding {
@@ -40,4 +55,26 @@ h2 {
   background: var(--cll-accent-dark);
   color: white;
   font-weight: bold;
+}
+
+img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+  img {
+    display: inline;
+    text-align: center;
+  }
+  h3,
+  p {
+    text-align: center;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1em;
+  }
 }
