@@ -1,13 +1,43 @@
+:root {
+  --cll-light: #cee8d1;
+  --cll-main: #8bcda1;
+  --cll-dark: #344d3c;
+  --cll-accent-dark: #ff750d;
+  --cll-accent-light: #ffaa00;
+}
+
 body {
   font-family: "Quicksand", sans-serif;
 }
 
 h1 {
   font-weight: 800;
+  font-size: 70px;
+}
+
+h2 {
+  font-weight: 700;
 }
 
 .hero {
   background: rgba(139, 205, 161, 0.2);
   text-align: center;
-  padding: 40px;
+  padding: 160px 40px;
+}
+
+.btn-branding {
+  background: var(--cll-accent-light);
+  color: white;
+  padding: 10px 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.btn-branding:hover {
+  background: var(--cll-accent-dark);
+  color: white;
+  font-weight: bold;
 }
