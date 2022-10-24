@@ -13,6 +13,7 @@ body {
 h1 {
   font-weight: 800;
   font-size: 70px;
+  text-align: center;
 }
 
 h2 {
@@ -60,6 +61,10 @@ p {
 img {
   width: 100%;
   margin: 0 auto;
+}
+
+img.about {
+  padding-bottom: 40px;
 }
 
 @media (max-width: 576px) {
