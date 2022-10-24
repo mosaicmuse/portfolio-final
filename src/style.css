@@ -1,7 +1,7 @@
 :root {
-  --cll-light: #cee8d1;
-  --cll-main: #8bcda1;
-  --cll-dark: #344d3c;
+  --cll-light: rgb(206, 232, 209);
+  --cll-main: rgb(139, 205, 161);
+  --cll-dark: rgb(52, 77, 60);
   --cll-accent-dark: #ff750d;
   --cll-accent-light: #ffaa00;
 }
@@ -16,12 +16,21 @@ h1 {
   text-align: center;
 }
 
+.interior h1 {
+  margin: 100px auto;
+}
+
 h2 {
   font-weight: 700;
 }
 
 h3 {
   margin-top: 15px;
+}
+
+.interior h3 {
+  margin-top: 0;
+  color: var(--cll-main);
 }
 
 p {
@@ -64,7 +73,8 @@ img {
 }
 
 img.about {
-  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
 }
 
 @media (max-width: 576px) {
