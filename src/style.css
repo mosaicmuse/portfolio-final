@@ -30,7 +30,7 @@ h3 {
 
 .interior h3 {
   margin-top: 0;
-  color: var(--cll-main);
+  color: var(--cll-dark);
 }
 
 p {
@@ -48,6 +48,13 @@ p {
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.highlight {
+  background: var(--cll-light);
+  padding: 30px 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
 }
 
 .btn-branding {
@@ -93,6 +100,15 @@ img.about {
   h2 {
     font-size: 1em;
   }
+  .highlight {
+    margin: 0 10px 20px 10px;
+  }
+
+  .btn-branding {
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 /* md */
@@ -103,6 +119,10 @@ img.about {
 
   img.about {
     margin-bottom: 20px;
+  }
+
+  .highlight h3 {
+    margin-top: 10px;
   }
 }
 
