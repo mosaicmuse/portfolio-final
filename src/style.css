@@ -100,6 +100,30 @@ nav ul a:hover {
   letter-spacing: 0.5px;
 }
 
+footer {
+  margin: 40px 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--cll-accent-dark);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: white;
+  background: var(--cll-accent-light);
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+
 /*---------button---------*/
 
 .btn-branding {
@@ -113,7 +137,8 @@ nav ul a:hover {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-.btn-branding:hover {
+.btn-branding:hover,
+footer .social-links a:hover {
   background: var(--cll-accent-dark);
   color: white;
   font-weight: bold;
