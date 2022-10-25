@@ -36,6 +36,12 @@ nav {
   padding: 10px 0;
 }
 
+.contact-box {
+  background: rgba(139, 205, 161, 0.2);
+  padding: 20px 100px;
+  border-radius: 10px;
+}
+
 /*---------text---------*/
 
 h1 {
@@ -122,6 +128,10 @@ footer .social-links a {
   padding: 10px 15px;
   font-size: 18px;
   border-radius: 50%;
+}
+
+.contact-box p {
+  margin-bottom: 0;
 }
 
 /*---------button---------*/
