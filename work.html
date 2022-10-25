@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Colleen L. Lenahansen's past work includes print brochures for nonprofits, digital apps and websites, and branding materials like logos and business cards."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -24,14 +28,37 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
-    <title>Work | Colleen Lenahansen</title>
+    <title>Work | Colleen L. Lenahansen</title>
   </head>
   <body class="interior">
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <div class="logo">
+          <a href="index.html">
+            <img
+              id="logo"
+              class="pr-5"
+              src="img/logo.png"
+              alt="Colleen L. Lenahansen logo"
+            />
+            <div class="d-none d-lg-inline">Colleen L. Lenahansen</div></a
+          >
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="active"><a href="work.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <h1>Work Samples</h1>
     <div class="wrapper">
       <div class="container">
         <div class="row highlight">
-          <div class="col-md-6"><img src="img/encompass.png" alt="" /></div>
+          <div class="col-md-6">
+            <img src="img/encompass.png" alt="Encompass Annual Report cover" />
+          </div>
           <div class="col-md-6">
             <h3>Encompass Annual Report</h3>
             <p>
@@ -65,11 +92,16 @@
             >
           </div>
           <div class="col-md-6 order-1 order-md-2">
-            <img src="img/weather-app.png" alt="" />
+            <img src="img/weather-app.png" alt="Weather App screenshot" />
           </div>
         </div>
         <div class="row highlight">
-          <div class="col-md-6"><img src="img/cpd.png" alt="" /></div>
+          <div class="col-md-6">
+            <img
+              src="img/cpd.png"
+              alt="Carrie Plank Development business card"
+            />
+          </div>
           <div class="col-md-6">
             <h3>Carrie Plank Development</h3>
             <p>
@@ -87,6 +119,31 @@
           </div>
         </div>
       </div>
+      <footer>
+        <div class="contact-box d-none d-md-flex justify-content-between mb-4">
+          <div>
+            <h4>Work Inquiries</h4>
+            <p>Let's work together!</p>
+          </div>
+          <div>
+            <a href="contact.html" class="btn btn-branding">Contact Me</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-3">
+          <a href="mailto:clenahansen@gmail.com" class="email-link"
+            >clenahansen@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://twitter.com/thefeens34" target="_blank"
+            ><i class="fa-brands fa-twitter"></i></a
+          ><a href="https://instagram.com/thefeens34" target="_blank"
+            ><i class="fa-brands fa-instagram"></i></a
+          ><a href="https://github.com/mosaicmuse" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

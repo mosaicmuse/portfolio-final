@@ -198,6 +198,11 @@ img.about {
     display: block;
     margin: 0 auto;
   }
+  .home-icon {
+    width: 80px;
+    margin: 0 auto;
+    display: block;
+  }
 }
 
 /* md */
